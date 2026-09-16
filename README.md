@@ -1,21 +1,30 @@
-﻿# 尖塔银行 / SpireBank
+# 尖塔银行 / SpireBank
 
-Slay the Spire 2 shop bank mod.
+> 项目分类：个人项目 / 《杀戮尖塔 2》Mod / 商店机制扩展 / 归档可用
 
-这些是给《Slay the Spire 2 / 杀戮尖塔2》v103/v107 调试制作的 MOD 归档。可安装压缩包放在 GitHub Releases；如果有多个版本，Release 按旧版到新版保留。
+《杀戮尖塔 2》的商店银行 Mod。这个仓库主要保存已发布版本与安装说明，安装包位于 GitHub Releases。
 
 ## 下载
 
-- [v0.1.0](https://github.com/Yummn/sts2-spire-bank/releases/tag/v0.1.0)
-- [v0.1.1](https://github.com/Yummn/sts2-spire-bank/releases/tag/v0.1.1)
-- [v0.1.4](https://github.com/Yummn/sts2-spire-bank/releases/tag/v0.1.4)
+推荐优先使用最新版本：
+
 - [v0.1.6](https://github.com/Yummn/sts2-spire-bank/releases/tag/v0.1.6)
+- [全部 Releases](https://github.com/Yummn/sts2-spire-bank/releases)
+
+当前发布包覆盖：
+
+- Android v0.103.x
+- Android v0.110.1
+- PC v0.107.x
+
+请按 Release 文件名选择与当前游戏版本一致的安装包。
 
 ## 安装
 
-下载对应 Release 里的 zip，解压后把其中的 $(System.Collections.Hashtable.Id) 文件夹放入游戏 mods 目录。
+1. 下载对应版本的 ZIP。
+2. 解压后，将其中的 `SpireBank` 文件夹完整复制到游戏 `mods/` 目录。
+3. 在启动器中启用模组。
 
-## 备注
+## 维护状态
 
-- 最新本地整合包来自 C:\Users\yummn\Downloads\杀戮尖塔2MOD\可安装-已测试v103。
-- 旧版本仅作留档；通常建议使用最新版本。
+该仓库保留多个历史版本用于兼容和回退。旧版本仅作留档，一般建议使用最新 Release。
